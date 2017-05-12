@@ -302,7 +302,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/orangecar.jpg');
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -395,7 +395,7 @@ footer ul li a.active {
 .bg-primary {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#f37430, #f37430); /* #f37430 is custom orange, #fdc539 is original yellow */
 }
 .text-primary {
   color: #fdcc52;
