@@ -173,7 +173,13 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h2>Interested? Let's talk!</h2>
-                        <a href="https://xd.adobe.com/view/0a95ec65-dfbf-4f80-8df9-4b687940e8e2/" target="_blank" class="btn btn-outline btn-xl page-scroll">Try the app!</a>
+                        <!-- This javascript prevents bots scraping the email -->
+                        <script language="JavaScript">
+                            var username = "kenneth.lindroos";
+                            var hostname = "aalto.fi";
+                            var linktext = "Email us";
+                            document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "' class='btn btn-outline btn-xl page-scroll'>" + linktext + "</a>");
+                            </script>
                     </div>
                     <div class="col-md-6">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/-Z6jyI-hKvE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
