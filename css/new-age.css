@@ -222,7 +222,7 @@ section {
   padding: 100px 0;
 }
 section h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 section.download {
   padding: 150px 0;
@@ -250,6 +250,10 @@ section.download .badges .badge-link img {
 }
 @media (min-width: 768px) {
   section.download h2 {
+    font-size: 40px;
+    margin: 30px;
+  }
+  section.download h1 {
     font-size: 70px;
   }
 }
@@ -302,7 +306,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/orangecar.jpg');
+  background-image: url('../img/car-bg.jpg');
   padding: 250px 0;
 }
 section.cta .cta-content {
