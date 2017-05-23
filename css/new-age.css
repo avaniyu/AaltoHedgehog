@@ -233,6 +233,9 @@ section.providers {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
 }
+section.providers h1 {
+  font-size: 50px;
+}
 section {
   padding: 100px 0;
 }
